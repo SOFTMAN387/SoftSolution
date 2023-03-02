@@ -1,15 +1,11 @@
 import React from 'react'
-// import Header from '../Header/Header';
-// import Navbar from '../navbar/Navbar';
-import SideBar from '../sidebar/SideBar';
+import Header from '../Header/Header';
 
 const Home = () => {
     return (
-        <> <SideBar />
-            {/* <Header />
-            <h1>Hello,Mini React</h1>
-            <Navbar /> */}
-          
+        <>
+        <Header />
+        <h1>Hello,Mini React</h1>
         </>
     )
 }
